@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #141e46;
+}
+.container .row input,
+.container .row select {
+  font-weight: bold;
+  border-radius: 10px;
+  border: none;
+  height: 50px;
+  width: 100%;
+  background-color: #fff5e0;
+  outline: none;
+}
+.container .row input::placeholder,
+.container .row select,
+input {
+  text-align: center;
+  color: black;
+  font-weight: bold;
+  font-weight: bold;
+}
+.container .row select option {
+  background-color: #141e46;
+  color: white;
+  font-weight: bold;
+}
+.container .card {
+  margin-top: 70px;
+}
+.container .card .card-body table .theHead th {
+  background-color: #8decb4;
+  color: rgb(62, 0, 0);
+  /* margin-top: 40px; */
+  border: none;
+}
+.container .card .card-body {
+  background-color: #8decb4;
+  outline: none;
+  border: none;
+}
+.container .card .card-body table tbody th {
+  padding: 5px 5px 5px 110px;
+  border-bottom: #8decb4 solid 10px;
+}
+.card .card-body table tbody tr td {
+  background-color: #141e46;
+  color: white;
+  padding: 5px 5px 5px 110px;
+}
+tbody i {
+  cursor: pointer;
+}
+tbody .DelIcon {
+  color: red;
+}
+tbody .EditIcon {
+  color: yellow;
+}
+tbody .showIc {
+  color: #0fa74e;
+}
+span {
+  color: yellow;
+  margin-left: 20px;
+  font-weight: bold;
+}
+.disappear {
+  display: none;
+}
+.ShowData {
+  height: 100vh;
+  font-weight: bold;
+  text-align: center;
+  font-size: 35px;
+  background-color: rgba(0, 0, 0, 0.8); /* Background color */
+  color: white; /* Text color */
+  padding: 120px; /* Padding around content */
+  width: 1260px; /* Width of the div */
+  margin: 0 auto; /* Center horizontally */
+  position: fixed; /* Fixed positioning */
+  top: 50%; /* Center vertically */
+  left: 50%; /* Center horizontally */
+  transform: translate(-50%, -50%); /* Center horizontally and vertically */
+}
+.ShowData span {
+    color:#8decb4 !important
+}
+@media (max-width: 991.98px) {
+  .container .card .card-body table .theHead th {
+    white-space: nowrap; /* Prevent wrapping of table headers */
+    overflow-x: auto; /* Enable horizontal scroll for table */
+  }
+
+  .container .card .card-body table tbody th,
+  .card .card-body table tbody tr td {
+    white-space: nowrap; /* Prevent wrapping of table cells */
+  }
+}
+
+@media (max-width: 767.98px) {
+  .container .card .card-body table .theHead th,
+  .container .card .card-body table tbody th,
+  .card .card-body table tbody tr td {
+    padding: 5px; /* Adjust padding for small screens */
+  }
+}
+
+
+.container .row input,
+.container .row select {
+  font-weight: bold;
+  border-radius: 10px;
+  border: none;
+  height: 50px;
+  width: 100%;
+  background-color: #fff5e0;
+  outline: none;
+  margin-top: 10px; /* Adjust margin top */
+}
+
+/* Add margin top for smaller screens */
+@media (max-width: 767.98px) {
+  .container .row input,
+  .container .row select {
+    margin-top: 5px; /* Adjust margin top for small screens */
+  }
+}
